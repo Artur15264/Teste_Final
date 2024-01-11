@@ -17,7 +17,7 @@ Cada uma das etapas de desenvolvimento foram registradas e estão descritas abai
 - Inicializando o Git
 - Criando o arquivo principal
 - Editando o código
-- Commit das alteraçoes
+- Commit das alterações
 - Compilando e executando
 - Enviando as aterações para o GitHub
 - Aceitando o pull request no GitHub
@@ -34,7 +34,7 @@ Com o git iniciado era hora de realizar o primeiro commit e realizar o push para
 - `git commit -m "README.md"` -> Aplica as mudanças ao diretório oculto .git
 - `git branch -M main` -> Altera o nome da branch para main, por padrão o nome é master
 - `git remote add origin git@github.com:Artur15264/Teste_Final.git` -> Aponta o repositório local para um diretório remoto
-- `git push -u origin main` -> Envia as alteraçoes do repositório local para o repositório remoto
+- `git push -u origin main` -> Envia as alterações do repositório local para o repositório remoto
 
 A imagem abaixo mostra a sequencia descrita acima no terminal do Linux:
 
@@ -46,7 +46,7 @@ A imagem abaixo mostra a sequencia descrita acima no terminal do Linux:
 
 <h2> <b> Criando o arquivo principal: </b> </h2>
 
-Para realizar alguma mudança no projeto é importante criar uma nova branch, nesse caso criei uma branch chamada desenvolvimento, onde criei o arquivo main.cpp e realizei todas as alteraçoes.<br />
+Para realizar alguma mudança no projeto é importante criar uma nova branch, nesse caso criei uma branch chamada desenvolvimento, onde criei o arquivo main.cpp e realizei todas as alterações.<br />
 O comando `echo` pode ser usado para criar novos arquivos utilizando o complemento `>>` seguindo a sequencia de comandos abaixo:
 - `git branch desenvolvimento .` -> Cria a branch desenvolvimento
 - `git checkout desenvolvimento"` -> Altera para a branch desenvolvimento
@@ -73,12 +73,12 @@ A imagem abaixo mostra o código escrito no nano:
 
 ---
 
-<h2> <b> Commit das alteraçoes: </b> </h2>
+<h2> <b> Commit das alterações: </b> </h2>
 
-Apos a alteração do codigo é necessario adicionar essa mudança ao git com `git commit`<br />
+Apos a alteração do codigo é necessário adicionar essa mudança ao git com `git commit`<br />
 Abaixo está a sequencia de comandos utilizados:
 - `ls` -> Lista os arquivos e diretórios presentes dentro de um diretório
-- `git status` -> Mostra os arquivos que ainda não foram adicioandos usando o **git add**
+- `git status` -> Mostra os arquivos que ainda não foram adicionados usando o **git add**
 - `git add` -> Adiciona o conteudo que foi alterado
 - `git commit` -> Aplica as mudanças ao diretório oculto .git
 
@@ -96,7 +96,7 @@ Para compilar utilizei o próprio compilador do Linux, o GCC(GNU Compiler Collec
 Para executar o programa via terminal é necessário usar `./Nome-do-Arquivo` <br />
 Abaixo está a sequencia de comandos utilizados:
 - `ls` -> Lista os arquivos e diretórios presentes dentro de um diretório
-- `g++ -g -o HelloWorld main.cpp` -> mostra os arquivos que ainda não foram adicioandos usando o **git add**
+- `g++ -g -o HelloWorld main.cpp` -> mostra os arquivos que ainda não foram adicionados usando o **git add**
 - `ls` -> Lista os arquivos e diretórios presentes dentro de um diretório
 - `./HelloWorld` -> Adiciona o conteudo que foi alterado
 
@@ -110,8 +110,8 @@ A imagem abaixo mostra a sequencia descrita acima no terminal do Linux:
 
 <h2> <b> Enviando as aterações para o GitHub: </b> </h2>
 
-Antes de enviar as alteraçoes para o GitHub é necesário realizar o processo de `add` e `commit` <br />
-Nesse ponto usei o comando `git log` para mostrar a diferença de log na branch **desenvolvimento**, onde foram feitas as alteraçoes, e a branch **main**. <br />
+Antes de enviar as alterações para o GitHub é necesário realizar o processo de `add` e `commit` <br />
+Nesse ponto usei o comando `git log` para mostrar a diferença de log na branch **desenvolvimento**, onde foram feitas as alterações, e a branch **main**. <br />
 
 A imagem abaixo mostra o log na branch desenvolvimento:
 <p align="center">
